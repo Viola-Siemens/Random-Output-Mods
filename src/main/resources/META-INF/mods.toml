@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="recipe_output"
+version="${file.jarVersion}"
+displayName="Recipe Output"
+# logoFile="logo.png"
+credits="Liu Dongyu"
+authors="Liu Dongyu"
+description='''
+Output recipe id when parsing error occurs.
+'''
+[[dependencies.recipe_output]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.recipe_output]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
