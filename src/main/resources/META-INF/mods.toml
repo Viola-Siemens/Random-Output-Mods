@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="Apache 2.0"
+[[mods]]
+modId="entity_renderer_output"
+version="${file.jarVersion}"
+displayName="Entity Renderer Output"
+# logoFile="logo.png"
+credits="Liu Dongyu"
+authors="Liu Dongyu"
+description='''
+Output entity id when renderer not found.
+'''
+[[dependencies.entity_renderer_output]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.entity_renderer_output]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,1.17)"
+    ordering="NONE"
+    side="BOTH"
