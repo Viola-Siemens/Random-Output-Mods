@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[35,)"
+loaderVersion="[46,)"
 license="Apache 2.0"
 [[mods]]
 modId="entity_renderer_output"
@@ -14,12 +14,12 @@ Output entity id when renderer not found.
 [[dependencies.entity_renderer_output]]
     modId="forge"
     mandatory=true
-    versionRange="[35,)"
+    versionRange="[46,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.entity_renderer_output]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16,1.17)"
+    versionRange="[1.20,1.21)"
     ordering="NONE"
     side="BOTH"
