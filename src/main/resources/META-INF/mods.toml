@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[41,)"
 license="MIT"
 [[mods]]
 modId="recipe_output"
@@ -14,12 +14,12 @@ Output recipe id when parsing error occurs.
 [[dependencies.recipe_output]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="[41,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.recipe_output]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="[1.19,1.20)"
     ordering="NONE"
     side="BOTH"
