@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.hexagram2021.creativemodetab_output.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "creativemodetab_output.refmap.json",
+  "mixins": [
+    "CreativeModeTabMixin",
+    "ItemDisplayBuilderAccess"
+  ],
+  "minVersion": "0.8",
+  "client": [
+  ]
+}

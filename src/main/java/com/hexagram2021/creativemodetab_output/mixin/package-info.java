@@ -2,7 +2,7 @@
 @FieldsAreNonnullByDefault
 @MethodsReturnNonnullByDefault
 
-package com.hexagram2021.entity_renderer_output.mixin;
+package com.hexagram2021.creativemodetab_output.mixin;
 
 
 

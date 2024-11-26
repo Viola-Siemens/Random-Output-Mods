@@ -21,11 +21,11 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
 base {
-    archivesName = 'entity_renderer_output'
+    archivesName = 'creativemodetab_output'
 }
 
 version = '1.20.1+0.1.0'
-group = 'com.hexagram2021.entity_renderer_output'
+group = 'com.hexagram2021.creativemodetab_output'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -48,11 +48,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'entity_renderer_output'
-            arg "-mixin.config=entity_renderer_output.mixins.json"
+            property 'forge.enabledGameTestNamespaces', 'creativemodetab_output'
+            arg "-mixin.config=creativemodetab_output.mixins.json"
 
             mods {
-                entity_renderer_output {
+                creativemodetab_output {
                     source sourceSets.main
                 }
             }
@@ -66,12 +66,12 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             property 'forge.logging.console.level', 'debug'
-            arg "-mixin.config=entity_renderer_output.mixins.json"
+            arg "-mixin.config=creativemodetab_output.mixins.json"
 
-            property 'forge.enabledGameTestNamespaces', 'entity_renderer_output'
+            property 'forge.enabledGameTestNamespaces', 'creativemodetab_output'
 
             mods {
-                entity_renderer_output {
+                creativemodetab_output {
                     source sourceSets.main
                 }
             }
@@ -86,11 +86,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'entity_renderer_output'
-            arg "-mixin.config=entity_renderer_output.mixins.json"
+            property 'forge.enabledGameTestNamespaces', 'creativemodetab_output'
+            arg "-mixin.config=creativemodetab_output.mixins.json"
 
             mods {
-                entity_renderer_output {
+                creativemodetab_output {
                     source sourceSets.main
                 }
             }
@@ -105,11 +105,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 			
-            args '--mod', 'entity_renderer_output', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-            arg "-mixin.config=entity_renderer_output.mixins.json"
+            args '--mod', 'creativemodetab_output', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            arg "-mixin.config=creativemodetab_output.mixins.json"
 
             mods {
-                entity_renderer_output {
+                creativemodetab_output {
                     source sourceSets.main
                 }
             }
@@ -142,7 +142,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "Entity Renderer Output",
+                "Specification-Title"     : "CreativeModeTab Output",
                 "Specification-Vendor"    : "Liu Dongyu",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
@@ -150,7 +150,7 @@ jar {
                 "Implementation-Vendor"   : "Liu Dongyu",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
                 'FMLCorePluginContainsFMLMod': 'true',
-                "MixinConfigs"            : "entity_renderer_output.mixins.json"
+                "MixinConfigs"            : "creativemodetab_output.mixins.json"
         ])
     }
 }
@@ -181,8 +181,8 @@ publishing {
 }
 
 mixin {
-    add sourceSets.main, 'entity_renderer_output.refmap.json'
-    config 'entity_renderer_output.mixins.json'
+    add sourceSets.main, 'creativemodetab_output.refmap.json'
+    config 'creativemodetab_output.mixins.json'
 
     debug.verbose = true
     debug.export = true

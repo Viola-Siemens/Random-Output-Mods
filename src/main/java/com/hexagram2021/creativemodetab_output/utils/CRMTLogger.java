@@ -1,13 +1,13 @@
-package com.hexagram2021.entity_renderer_output.utils;
+package com.hexagram2021.creativemodetab_output.utils;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static com.hexagram2021.entity_renderer_output.EntityRendererOutput.MODID;
+import static com.hexagram2021.creativemodetab_output.CreativeModeTabOutput.MODID;
 
 @SuppressWarnings("unused")
-public class EROLogger {
+public class CRMTLogger {
 	public static boolean debugMode = true;
 	public static Logger logger = LogManager.getLogger(MODID);
 
