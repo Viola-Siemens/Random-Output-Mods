@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="Apache 2.0"
+[[mods]]
+modId="entity_data_output"
+version="${file.jarVersion}"
+displayName="Entity Data Output"
+# logoFile="logo.png"
+credits="Liu Dongyu"
+authors="Liu Dongyu"
+description='''
+Output entity data when it is set to null.
+'''
+[[dependencies.entity_data_output]]
+    modId="forge"
+    mandatory=true
+    versionRange="[46,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.entity_data_output]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"

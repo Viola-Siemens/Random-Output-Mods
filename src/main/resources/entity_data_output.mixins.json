@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.hexagram2021.entity_data_output.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "entity_data_output.refmap.json",
+  "mixins": [
+  ],
+  "minVersion": "0.8",
+  "client": [
+  ]
+}
