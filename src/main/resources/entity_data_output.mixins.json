@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "entity_data_output.refmap.json",
   "mixins": [
+    "SynchedEntityDataItemMixin"
   ],
   "minVersion": "0.8",
   "client": [
