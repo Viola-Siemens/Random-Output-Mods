@@ -18,7 +18,7 @@ public class RecipeManagerMixin {
 		Recipe<T> r;
 		try {
 			r = instance.fromJson(resourceLocation, jsonObject, iContext);
-		} catch (IllegalStateException e) {
+		} catch (RuntimeException e) {
 			throw new RuntimeException("Error when parsing " + resourceLocation, e);
 		}
 		return r;

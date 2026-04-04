@@ -24,7 +24,7 @@ base {
     archivesName = 'recipe_output'
 }
 
-version = '1.20.1+0.1.1'
+version = '1.20.1+0.1.2'
 group = 'com.hexagram2021.recipe_output'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
