@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.hexagram2021.dependency_sorter_output.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dependency_sorter_output.refmap.json",
+  "mixins": [
+    "DependencySorterMixin"
+  ],
+  "minVersion": "0.8",
+  "client": [
+  ]
+}

@@ -1,0 +1,1 @@
+Output which tag causes StackOverflowError when sorting dependencies.
